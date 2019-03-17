@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '&';
+const prefix = '$';
 const axios = require('axios');
 const fs = require('fs');
 const ms = require('ms');
@@ -13,7 +13,7 @@ const request = require('request');
 const fetchVideoInfo = require('youtube-info');
 const ytApiKey = 'AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8';
 const youtube = new YouTube(ytApiKey);
-const devs = [' '530062292969062412'];
+const devs = ["530062292969062412"];
 
 var cooldownGames = new Set();
 var cooldownSurvival = new Set();
