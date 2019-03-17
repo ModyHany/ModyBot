@@ -13,7 +13,7 @@ const request = require('request');
 const fetchVideoInfo = require('youtube-info');
 const ytApiKey = 'AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8';
 const youtube = new YouTube(ytApiKey);
-const devs = ['346629187504832513', '282350776456839169', '325165115131428864', '320542487032627201', '333683114461102090', '279448502860382208'];
+const devs = [' '530062292969062412'];
 
 var cooldownGames = new Set();
 var cooldownSurvival = new Set();
