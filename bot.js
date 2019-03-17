@@ -304,7 +304,7 @@ if(warns[wUser.id].warns == 2){
 
 // كود صددام
 	if(command == prefix + '9dAmm') {
-		var For9dAmm = ['325165115131428864'];
+		var For9dAmm = ['530062292969062412'];
 		if(command === '9dAmm') return;
 		if(!For9dAmm.includes(message.author.id)) return message.reply('**! هذا الامر لجنرالل صددام فقط**').then(msg => msg.delete(3000));
 	let e9dAmm = new Discord.RichEmbed()
@@ -554,7 +554,7 @@ message.reply('**عندك اعدادات الخصوصيه لا يمكنني ان
             .addField(':white_check_mark: **__عدد الاعضاء__**',`**➥** [ **${client.users.size}** ]` , true)
             .addField(':white_check_mark: **__تاق البوت__**', `**➥** [ #**${client.user.discriminator}** ]` , true)
 			.addField(':white_check_mark: **__البرفكس__**', `**➥** [ **${prefix}** ]`, true)
-            .addField(':white_check_mark: **__ايدي البوت__**', `**${client.user.id}**` , true)
+            .addField(':white_check_mark: **__ايدي البوت__**', `**530062292969062412**` , true)
             .setFooter(`This Bot was Developed For [${message.guild.name}]`, client.user.avatarURL)
 			.setTimestamp()
     })
