@@ -2026,9 +2026,6 @@ function shuffle(queue) {
 }
 
 client.on("message", message => {
-	var command = message.content.toLowerCase().split(" ")[0];
-   	var djRole = message.member.roles.has('name', 'Dj');
-        if(!djRole) return;
         if(command == prefix + 'help') {
      let embed = new Discord.RichEmbed()
          .setColor("36393f")
@@ -2050,10 +2047,6 @@ ${prefix}help or ${prefix}commands ->  يعرض لك الاوامر البوت �
 
 
 client.on('message', message => {
-	var djRole = message.member.roles.has('name', 'Dj');
-	if(!djRole) return;
-	var command = message.content.toLowerCase().split(" ")[0];
-	
 	if(command == prefix + 'help') {
 		let embed = new Discord.RichEmbed()
          .setColor("36393f")
