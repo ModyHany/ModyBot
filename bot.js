@@ -2175,4 +2175,4 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return mess
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.NDUxODM3ODUwMDUzMzc4MDY5.XKjshg.q6o8snX1YvGutcdzGwtz7uweLQI);
